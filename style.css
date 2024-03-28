@@ -1,0 +1,101 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+
+.col-1{
+	width:100%;
+}
+.col-2{
+	width:46%;
+	background-color: #3F51B5;
+    display: grid;
+	box-shadow: 0 0 10px darkgray;
+}
+
+.col-1{
+	background-image:url("https://www.autotrader.com/wp-content/uploads/2022/02/2021-Ferrari-SF90-Stradale.jpg?w=1068&h=0&crop=1");
+    background-position:center;
+    height:39vh;
+    width: 35rem;
+    background-size: cover;
+    padding: 20px 40px;
+    background-repeat: no-repeat;
+	box-shadow: 0 0 10px darkgray;
+}
+
+.heading3{
+	background-color:yellow;
+	width:13%;
+    padding: 0 0 0 17px;
+	margin:13px;
+	cursor: pointer;
+	color:white;
+}
+.heading1{
+	color: white;
+    font-size: 32px;
+    margin: 12px
+}
+.list ul{
+	list-style-type: none;
+    margin: 13px;
+    line-height: 1.5;
+    color: white;
+	
+}
+.list ul li i{
+	margin: 0 4px;
+    font-size: 19px;
+}
+.redcolor{
+	margin: 0 0 0 13px;
+    border-radius: 50%;
+    background-color: red;
+    width: 27px;
+    height: 25px;
+	cursor: pointer;
+}
+.greycolor{
+	margin: 0 0 0 13px;
+    border-radius: 50%;
+    background-color:gray;
+    width: 27px;
+    height: 25px;
+	cursor: pointer;
+}
+.blackcolor{
+	margin: 0 0 0 13px;
+    border-radius: 50%;
+    background-color:black;
+    width: 27px;
+    height: 25px;
+	cursor: pointer;
+}
+.para{
+	margin:13px;
+	color:white;
+}
+.colors{
+    display: flex;
+    margin: 10px 0 25px 0;
+}
+.colors p{
+	padding: 4px 0;
+}
+.colors h2{
+	padding: 0px 18px;
+}
+.btn{
+	background-color:yellow;
+	padding: 7px 42px;
+    margin: 0 0 0 17px;
+    border:0;
+    color: white;
+	cursor: pointer;
+}

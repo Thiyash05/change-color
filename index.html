@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color changing</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+<section class="sec">
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+		    
+		</div>
+		<div class="col-2">
+		    <h3 class="heading3">car</h3>
+		    <h1 class="heading1">Mercedex Benz c300 2022</h1>
+				<div class="list">
+					<ul>
+						<li><i class="bi bi-car-front-fill" style="Color:black;"></i>Milleage:4,000 miles</li>
+						<li><i class="bi bi-fuel-pump-fill" style="Color:black;"></i></i>Fuel:25mog</li>
+						<li><i class="bi bi-shield-fill" style="Color:black;"></i>Safety:<span class="icon" style="Color:yellow;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>						</span></li>
+				    </ul>		
+				</div>
+					<p class="para">Pick a Color: </p>
+				<div class="colors">	
+					<div class="redcolor"></div>
+					<div class="greycolor"></div>			
+					<div class="blackcolor"></div>
+					<h2>$134,450</h2>
+					<p><s>$130,670</s></p>
+				</div>	
+					
+		</div>
+		<button class="btn"><i class="bi bi-cart3"></i>Add to Cart</button>
+    </div>
+</div>
+</section>
+
+
+
+<script>
+
+var red=document.querySelector(".redcolor");
+var grey=document.querySelector(".greycolor");
+var black=document.querySelector(".blackcolor");
+var image=document.querySelector(".col-1");
+var heading=document.querySelector(".heading3");
+var btn=document.querySelector(".btn");
+
+red.addEventListener('click', function(){
+image.style.backgroundImage='url("https://c4.wallpaperflare.com/wallpaper/650/994/535/cars-lamborghini-sport-car-photography-red-color-wallpaper-preview.jpg")';
+btn.style.backgroundColor="red";
+heading.style.backgroundColor="red";
+})
+
+grey.addEventListener('click',function(){
+image.style.backgroundImage='url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEq5UdtNtUBDsRJaNqyJH6k4n0tPpEpCV5WQ&usqp=CAU")';
+heading.style.backgroundColor="grey";
+btn.style.backgroundColor="grey";
+})
+
+black.addEventListener('click',function(){
+image.style.backgroundImage='url("https://image.cnbcfm.com/api/v1/image/105807049-1553189463674bugatti.jpg?v=1553189697&w=740&h=416&ffmt=webp&vtcrop=y")';
+heading.style.backgroundColor="black"
+btn.style.backgroundColor="black";
+})
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
